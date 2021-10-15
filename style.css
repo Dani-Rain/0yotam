@@ -329,8 +329,9 @@ background-color:rgb(226, 226, 226);
 
 .container2 {
     /* border: 2px solid red; */
-    width: 50%;
+    width: 25%;
     padding: 30px;
+    /* border: 2px solid red; */
 }
 
 .contact-us {
@@ -400,6 +401,7 @@ i{
     flex-basis: 50%;
    margin: 5% 20px;
    z-index: 1;
+   /* border: 2px solid red; */
 }
 
 .contact-col input, .contact-col textarea{
@@ -541,6 +543,11 @@ footer h4 {
    .flex-media {
     flex-direction: column;
     }
+
+    .container3 {
+    /* border: 2px solid blue; */
+    flex-basis: 100%;
+    }
 }
 
 
@@ -627,10 +634,36 @@ background-color:rgb(226, 226, 226);
 /* contact-me */
 
 .contact-box{  
-        margin:auto;
-        width:80vw;
+        margin: auto;
+        width: 80%;
         border: 0.5px solid whitesmoke;
         color: whitesmoke;    
         background-color:transparent;
+        /* border: 2px double greenyellow; */
 }
 
+.container3 {
+  /* border: 2px solid blue; */
+  width: 40%;
+  padding: 0px;
+  margin: 5% 5% 5% 5%;
+}
+
+.contact-col2{
+    flex-basis: 50%;
+   margin: 2% 0%;
+   z-index: 1;
+   /* border: 2px solid red; */
+}
+
+.contact-col2 input, .contact-col2 textarea{
+    width:100%;
+    /* flex-basis: 80%; */
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 8px;
+    box-shadow: 1px 2px 3px 0px rgb(226, 226, 226);  
+    color: rgb(226, 226, 226);
+}
