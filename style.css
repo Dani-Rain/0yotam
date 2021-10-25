@@ -652,7 +652,7 @@ background-color:rgb(226, 226, 226);
 .contact-box{  
         margin: auto;
         width: 80%;
-        border: 0.5px solid whitesmoke;
+        /* border: 0.5px solid whitesmoke; */
         color: whitesmoke;    
         background-color:transparent;
         /* border: 2px double greenyellow; */
