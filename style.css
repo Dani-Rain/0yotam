@@ -40,8 +40,6 @@ margin: 40px 0px 0px 40px;
     color: rgb(226, 226, 226);
     font-size: 200%;
     line-height:40px;
-    text-transform: uppercase;
-
 }
 
 .logo h5 {
@@ -142,7 +140,6 @@ h2 {
     color: #171615;
     background-color: rgb(226, 226, 226);
     font-size: 20px;
-    text-transform: uppercase;
 }
 
 h3 {
@@ -166,18 +163,16 @@ h3 {
 
 /* links and animation  */
 
-.text-box a {
-    color: #171615;
+.container a {
     background-color: rgb(226, 226, 226);
     font-size: 20px;
     text-decoration: none;
     display: inline-block;
     margin-top: 5px;
     text-align:center;
-
 } 
 
-.text-box a::after {
+.container a::after {
     color: #171615;
     content: '';
     width: 0%;
@@ -189,7 +184,7 @@ h3 {
 }
 
 
-.text-box a:hover::after {
+.container a:hover::after {
     width: 100%;
     color: #171615;
 
@@ -198,17 +193,14 @@ h3 {
 .text-box ul li{
     background-color: rgb(226, 226, 226);
     margin-bottom: 10px;
+    color: rgba(23, 22, 21, 0.4);
 }
 
-.text-box ul{
+.container ul{
     background-color: rgb(226, 226, 226);
     margin: 0px 50px;
     list-style:inside; 
     color: rgba(23, 22, 21, 0.4);
-}
-
-.text-box ul a{
-    list-style:armenian; 
 }
 
 
@@ -406,14 +398,140 @@ i{
     display: none;
 }
 
-.contact-col{
-    flex-basis: 50%;
-   margin: 5% 20px;
-   z-index: 1;
-   /* border: 2px solid red; */
+
+/* footer */
+
+    footer {
+        color:whitesmoke;
+        width:100%;
+        text-align:center;
+        padding: 30px 0;
+    }
+
+
+    footer h4 {
+    padding-bottom: 30px;
+    padding-top:10px;
+    }
+
+
+/* Inner pages */
+
+/* code */
+.code-image{
+    /* border: 2px solid red; */
+    height: 200px;
+    background-image: linear-gradient(rgba(23, 22, 21,0),rgba(23, 22, 21, 0.7)),url(./img/Abstract\ futuristic\ -\ technology\ with\ polygonal\ shapes\ on\ dark\ blue\ background.\ Design\ digital\ technology\ concept.\ 3d\ illustration.png);
+    background-position:center;
+    background-size: cover;  
 }
 
-.contact-col input, .contact-col textarea{
+
+/* MEME lab */
+
+.lab-image{
+    /* border: 2px solid red; */
+    height: 400px;
+    background-image:url(./img/Logo.png);
+    background-position: center;
+    background-size: contain;
+}
+
+.meme-img1 {
+    flex-basis: 50%;
+    background-image: url(./student-img/244077790_3012541688964579_7102600681165497211_n.jpg);
+    height: auto;
+    background-position:center;
+    background-size:cover;  
+}
+
+.meme-img2 {
+    flex-basis: 50%;
+    background-image: url(./student-img/244188848_556268692099601_3288271828499143813_n.jpg);
+    height: 300px;
+    background-position:center;
+    background-size:cover;  
+}
+
+.meme-img3 {
+    flex-basis: 50%;
+    background-image:url(./student-img/244052890_559820448583510_3175616811099302868_n.jpg);
+    height: 300px;
+    background-position:center;
+    background-size:cover;  
+}
+
+.meme-img4 {
+    flex-basis: 50%;
+    background-image: url(./student-img/244223041_2963988753865371_501320224321620428_n.jpg);
+    height: 300px;
+    background-position:center;
+    background-size:cover;  
+}
+
+.meme-img5 {
+    flex-basis: 50%;
+    background-image: url(./img/YOU.0721.opener.jpg);
+    height: 300px;
+    background-position:center;
+    background-size:cover;  
+}
+
+.meme-img6 {
+    flex-basis: 50%;
+    background-image: url(./img/YOU.0721.opener.jpg);
+    height: 300px;
+    background-position:center;
+    background-size:cover;  
+}
+
+.meme-txt{
+height: auto;
+margin-bottom: 10px;
+margin: 10px 10px;
+background-color:rgb(226, 226, 226);
+}
+
+.flex-meme {
+    display: flex;
+    padding-bottom: 200px;
+    /* border: 2px solid red; */
+}
+
+
+.container-meme {
+    /* border: 2px solid red; */
+    flex-basis:50%;
+    background-color: rgb(226, 226, 226);
+    padding: 30px;
+}
+
+/* contact-me */
+
+
+
+.contact-box{  
+    margin: auto;
+    width: 90%;
+    /* border: 0.5px solid whitesmoke; */
+    color: whitesmoke;    
+    background-color:transparent;
+    }
+
+    .container3{
+    /* border: 2px solid blue; */
+    width: 50%;
+    margin: 25px;
+    }
+
+    .contact-col2{
+    flex-basis: 50%;
+    margin: 5% 20px;
+    z-index: 1;
+    /* border: 2px solid red; */
+    }
+
+    .contact-col2 input, .contact-col2 textarea{
     width:100%;
     padding: 15px;
     margin-bottom: 17px;
@@ -422,18 +540,18 @@ i{
     border-radius: 8px;
     box-shadow: 1px 2px 3px 0px rgb(226, 226, 226);  
     color: rgb(226, 226, 226);
-}
+    }
 
-form button {
+    form button {
     color: black;
     background-color:rgb(226, 226, 226);
     padding: 10px;
     border-radius: 8px;
     box-shadow: 1px 1px 1px 0px rgb(226, 226, 226);
     cursor: pointer;  
-}
+    }
 
-form button:hover{
+    form button:hover{
     color:rgb(226, 226, 226);
     background-color: transparent;
     transform: scale(1.1);
@@ -441,21 +559,15 @@ form button:hover{
     }
 
 
-/* footer */
-
-footer {
-    color:whitesmoke;
-    width:100%;
-    text-align:center;
-    padding: 30px 0;
-}
 
 
-footer h4 {
-  padding-bottom: 30px;
-  padding-top:10px;
-}
 
+
+
+
+
+
+    
 
 
 /* media */
@@ -470,9 +582,6 @@ footer h4 {
     body{
         overflow-x: none;
     }
-
-
-
 
     .nav-links {
         position: absolute;
@@ -558,128 +667,22 @@ footer h4 {
     flex-basis: 100%;
     }
 
+/* lab-images */
+    .flex-meme {
+    flex-direction: column;
+    }
 
-    /* .image-meme{
-        border: 5px solid greenyellow;
-       height: 300px;
-        width: 300px; 
-    } */
-}
+    .meme-img1 {
+        /* flex-basis: 100%; */
+        background-image: url(./student-img/244077790_3012541688964579_7102600681165497211_n.jpg);
+        background-position:center;
+        background-size:cover;  
+        border: 2px solid purple
+    }
 
-
-
-/* Inner pages */
-
-/* code */
-.code-image{
-    /* border: 2px solid red; */
-    height: 200px;
-    background-image: linear-gradient(rgba(23, 22, 21,0),rgba(23, 22, 21, 0.7)),url(./img/Abstract\ futuristic\ -\ technology\ with\ polygonal\ shapes\ on\ dark\ blue\ background.\ Design\ digital\ technology\ concept.\ 3d\ illustration.png);
-    background-position:center;
-    background-size: cover;  
-}
-
-
-/* MEME lab */
-
-
-
-.lab-image{
-    /* border: 2px solid red; */
-    height: 400px;
-    background-image:url(./img/Logo.png);
-    background-position: center;
-    background-size: contain;
-}
-
-.meme-img1 {
-    flex-basis: 50%;
-    background-image: url(./student-img/244077790_3012541688964579_7102600681165497211_n.jpg);
-    height: 300px;
-    background-position:center;
-    background-size:cover;  
-}
-
-.meme-img2 {
-    flex-basis: 50%;
-    background-image: url(./student-img/244188848_556268692099601_3288271828499143813_n.jpg);
-    height: 300px;
-    background-position:center;
-    background-size:cover;  
-}
-
-.meme-img3 {
-    flex-basis: 50%;
-    background-image:url(./student-img/244052890_559820448583510_3175616811099302868_n.jpg);
-    height: 300px;
-    background-position:center;
-    background-size:cover;  
-}
-
-.meme-img4 {
-    flex-basis: 50%;
-    background-image: url(./student-img/244223041_2963988753865371_501320224321620428_n.jpg);
-    height: 300px;
-    background-position:center;
-    background-size:cover;  
-}
-
-.meme-img5 {
-    flex-basis: 50%;
-    background-image: url(./img/YOU.0721.opener.jpg);
-    height: 300px;
-    background-position:center;
-    background-size:cover;  
-}
-
-.meme-img6 {
-    flex-basis: 50%;
-    background-image: url(./img/YOU.0721.opener.jpg);
-    height: 300px;
-    background-position:center;
-    background-size:cover;  
-}
-
-.meme-txt{
-height: auto;
-margin-bottom: 10px;
-margin: 10px 10px;
-background-color:rgb(226, 226, 226);
-}
-
-/* contact-me */
-
-.contact-box{  
-        margin: auto;
-        width: 80%;
-        /* border: 0.5px solid whitesmoke; */
-        color: whitesmoke;    
-        background-color:transparent;
-        /* border: 2px double greenyellow; */
-}
-
-.container3 {
-  /* border: 2px solid blue; */
-  width: 40%;
-  padding: 0px;
-  margin: 5% 5% 5% 5%;
-}
-
-.contact-col2{
-    flex-basis: 50%;
-   margin: 2% 0%;
-   z-index: 1;
-   /* border: 2px solid red; */
-}
-
-.contact-col2 input, .contact-col2 textarea{
+    /* contact */
+    .container3{
     width:100%;
-    /* flex-basis: 80%; */
-    padding: 15px;
-    margin-bottom: 17px;
-    outline: none;
-    border: 1px solid rgb(226, 226, 226);
-    border-radius: 8px;
-    box-shadow: 1px 2px 3px 0px rgb(226, 226, 226);  
-    color: rgb(226, 226, 226);
-}
+    }
+
+}    
