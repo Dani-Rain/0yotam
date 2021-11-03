@@ -118,8 +118,9 @@ nav a:link {
         margin: 0px 40px;
         margin-bottom: 100px;
         border: 0.5px solid whitesmoke;
-        color: whitesmoke;    
+        /* color: whitesmoke;     */
         background-color:rgb(226, 226, 226);
+        max-width: 800px;
 }
 
 .flex {
@@ -165,6 +166,7 @@ h3 {
 
 .container a {
     background-color: rgb(226, 226, 226);
+    color:violet;
     font-size: 20px;
     text-decoration: none;
     display: inline-block;
@@ -173,7 +175,7 @@ h3 {
 } 
 
 .container a::after {
-    color: #171615;
+    color: violet;
     content: '';
     width: 0%;
     height: 2px;
@@ -285,18 +287,34 @@ margin: 10px 10px;
 background-color:rgb(226, 226, 226);
 }
 
-.text-media a{
-    text-decoration: underline;
-    cursor: pointer;
-    background-color:rgb(226, 226, 226);
-    margin-left: 10px;
+.text-media a {
+    background-color: rgb(226, 226, 226);
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 5px;
+    text-align:center;
+} 
+
+.text-media a::after {
+    color: #171615;
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color:whitesmoke;
+    display: block;
+    transition: 0.5s;
+
 }
 
-.text-box a{
-    margin:20px;
-    cursor: pointer;
-    color: rgba(23, 22, 21, 1);
+
+.text-media a:hover::after {
+    width: 100%;
+    color: #171615;
+
 }
+
+
 
 
 /* courses */
