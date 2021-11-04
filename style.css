@@ -54,7 +54,7 @@ nav {
     justify-content: space-evenly;
     min-height: 8vh;
     max-width: 1000px;
-    min-width: 800px;
+    margin: auto;
     /* position: absolute; */
     /* border: 2px solid red; */
 
@@ -118,12 +118,13 @@ nav a:link {
 }
 
 .text-box{
-        margin: 0px 40px;
+        margin: auto auto;
         margin-bottom: 100px;
         border: 0.5px solid whitesmoke;
         color: whitesmoke;    
         background-color:rgb(226, 226, 226);
-        max-width: 800px;
+        max-width: 1000px;
+    
 }
 
 .flex {
