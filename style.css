@@ -649,6 +649,10 @@ background-color:rgb(226, 226, 226);
         
     }
 
+    .image-antman{
+        display: none;
+    }
+
 
     @keyframes navLinkFade{
         from{
