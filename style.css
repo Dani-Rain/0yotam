@@ -204,8 +204,8 @@ h3 {
 .container ul{
     background-color: rgb(226, 226, 226);
     margin: 0px 50px;
-    list-style:inside; 
     color: rgba(23, 22, 21, 0.4);
+    margin-left: 10px;
 }
 
 
@@ -328,6 +328,7 @@ background-color:rgb(226, 226, 226);
     background-image: url(./img/Digital\ social\ media.webp);
     background-position: center;
     background-size: cover;
+    padding-bottom: 100%;
 }
 
 .image-course2{
@@ -383,6 +384,7 @@ font-size: 20px;
 .social-icons1, .social-icons2, .social-icons3, i:hover {
     transform: scale(1.1);
     transition: 0.5s;
+    color:white;
 }
 
 .social-icons1, .social-icons2, .social-icons3, a:visited {
