@@ -617,7 +617,6 @@ background-color:rgb(226, 226, 226);
         right: 25%;
         height: 100vh;
         width: 100%;
-        top: -15vh;
         z-index: 2;
         flex-direction: column;
         align-items:center;

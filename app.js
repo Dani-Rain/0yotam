@@ -36,17 +36,17 @@ const navSlide = () => {
 
 
         
-        navLinks.forEach((link, index) => {
-            if(link.style.animation){
-              link.style.animation='' 
-              console.log("first condition")
-            }else{
-              link.style.animation = `navLinkFade 0.5s ease forwards ${index /7+0.13}s`;
-              console.log(link)
-            }
-            console.log(index);
+        // navLinks.forEach((link, index) => {
+        //     if(link.style.animation){
+        //       link.style.animation='' 
+        //       console.log("first condition")
+        //     }else{
+        //       link.style.animation = `navLinkFade 0.5s ease forwards ${index /7+0.13}s`;
+        //       console.log(link)
+        //     }
+        //     console.log(index);
           
-          });
+        //   });
 
           // burger animation
           burger.classList.toggle('toggle');
