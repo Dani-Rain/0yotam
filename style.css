@@ -73,6 +73,7 @@ nav {
     letter-spacing: 1px;
     cursor: pointer;
     margin: 15px;
+    /* color:rgb(226, 226, 226); */
     /* border: 2px solid red; */
 }
 
@@ -174,7 +175,7 @@ h3 {
 
 .container a {
     background-color: rgb(226, 226, 226);
-    color:violet;
+    color:black;
     font-size: 20px;
     text-decoration: none;
     display: inline-block;
@@ -183,7 +184,7 @@ h3 {
 } 
 
 .container a::after {
-    color: violet;
+    color: black;
     content: '';
     width: 0%;
     height: 2px;
@@ -646,6 +647,7 @@ body {
         margin: 20% 20% 20% 20%;
         text-align: center;
         opacity: 0.5;
+        color: white;
     }
 
     .burger {
