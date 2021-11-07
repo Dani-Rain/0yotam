@@ -475,53 +475,71 @@ i{
     background-size: contain;
 }
 
-.meme-img1 {
+.image-Yotam{
+    background-image: url(./student-img/Yotam.jpg);
     flex-basis: 50%;
-    background-image: url(./student-img/244077790_3012541688964579_7102600681165497211_n.jpg);
-    height: auto;
-    background-position:center;
-    background-size:cover;  
+    background-position: center;
+    background-size: cover;
+    height:auto;
+    padding-bottom: 50%;
 }
 
-.meme-img2 {
-    flex-basis: 50%;
-    background-image: url(./student-img/244188848_556268692099601_3288271828499143813_n.jpg);
-    height: 300px;
-    background-position:center;
-    background-size:cover;  
+.image-Anita{
+        background-image: url(./student-img/Anita.jpg);
+        flex-basis: 50%;
+        background-position: center;
+        background-size: cover;
+        height:auto;
+        padding-bottom: 50%;
 }
 
-.meme-img3 {
+
+.image-rui{
+    background-image: url(./student-img/Rui.jpg);
     flex-basis: 50%;
-    background-image:url(./student-img/244052890_559820448583510_3175616811099302868_n.jpg);
-    height: 300px;
-    background-position:center;
-    background-size:cover;  
+    background-position: center;
+    background-size: cover;
+    height:auto;
+    padding-bottom: 50%;
 }
 
-.meme-img4 {
+.image-rapha{
+    background-image: url(./student-img/Rapha.jpg);
     flex-basis: 50%;
-    background-image: url(./student-img/244223041_2963988753865371_501320224321620428_n.jpg);
-    height: 300px;
-    background-position:center;
-    background-size:cover;  
+    background-position: center;
+    background-size: cover;
+    height:auto;
+    padding-bottom: 50%;
 }
 
-.meme-img5 {
-    flex-basis: 50%;
-    background-image: url(./img/YOU.0721.opener.jpg);
-    height: 300px;
-    background-position:center;
-    background-size:cover;  
+.image-shu-an{
+    background-image: url(./student-img/Shu-An.jpg);
+        flex-basis: 50%;
+        background-position: center;
+        background-size: cover;
+        height:auto;
+        padding-bottom: 50%;
 }
 
-.meme-img6 {
-    flex-basis: 50%;
-    background-image: url(./img/YOU.0721.opener.jpg);
-    height: 300px;
-    background-position:center;
-    background-size:cover;  
+.image-tahleen{
+    background-image: url(./student-img/Tahleen.jpg);
+        flex-basis: 50%;
+        background-position: center;
+        background-size: cover;
+        height:auto;
+        padding-bottom: 50%;
 }
+
+.image-emily{
+    background-image: url(./student-img/Emily.jpg);
+    flex-basis: 50%;
+    background-position: center;
+    background-size: cover;
+    height:auto;
+    padding-bottom: 50%;
+}
+
+
 
 .meme-txt{
 height: auto;
@@ -715,6 +733,9 @@ body {
     flex-basis: 100%;
     }
 
+
+
+
 /* lab-images */
     .flex-meme {
     flex-direction: column;
@@ -728,12 +749,11 @@ body {
         border: 2px solid purple
     }
 
-
 /* courses */
 
-.image-course1{
-    padding-bottom: 100%;
-}
+    .image-course1{
+        padding-bottom: 100%;
+    }
 
 
     /* contact */
@@ -741,4 +761,31 @@ body {
     width:100%;
     }
 
-}    
+    /* lab student images */
+
+    .image-Yotam{
+        padding-bottom: 100%;
+    }
+
+
+    .image-Anita{
+        padding-bottom: 100%;
+    }
+
+    .image-rui{
+        padding-bottom: 100%;
+    }
+
+    .image-rapha{
+        padding-bottom: 100%;
+    }
+
+    .image-shu-an{
+        padding-bottom: 100%;
+    }
+
+    .image-emily{
+        padding-bottom: 100%;
+    }
+
+}   /* End responsive media */
