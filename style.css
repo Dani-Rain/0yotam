@@ -333,7 +333,6 @@ background-color:rgb(226, 226, 226);
     background-image: url(./img/Digital\ social\ media.webp);
     background-position: center;
     background-size: cover;
-    padding-bottom: 100%;
 }
 
 .image-course2{
@@ -726,6 +725,14 @@ body {
         background-size:cover;  
         border: 2px solid purple
     }
+
+
+/* courses */
+
+.image-course1{
+    padding-bottom: 100%;
+}
+
 
     /* contact */
     .container3{
