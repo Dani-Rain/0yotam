@@ -36,9 +36,13 @@ max-width: 95vw;
 
 .logo {
     letter-spacing: 3px;
-    margin: 50px 225px;
     font-weight: bold;
-
+    margin: auto auto;
+    margin-bottom: auto;
+    border: 0px solid whitesmoke;
+    color: whitesmoke;    
+    background-color:rgb(226, 226, 226);
+    max-width: 1000px;
 }
 
 
@@ -123,7 +127,7 @@ nav a:link {
 
 .text-box{
         margin: auto auto;
-        margin-bottom: auto;
+        margin-bottom: 0px;
         border: 0.5px solid whitesmoke;
         color: whitesmoke;    
         background-color:rgb(226, 226, 226);
